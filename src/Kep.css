@@ -7,9 +7,16 @@
     border: 1px solid black;
 }
 
+.Kep .Kep-cim h3 {
+    height: 50px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+}
+
 .Kep img {
     width: 200px;
     height: 200px;
+    position: relative;
     border: 2px solid black;
     border-radius: 10px;
 }

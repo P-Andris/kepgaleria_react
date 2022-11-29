@@ -8,7 +8,9 @@ function Kep(props) {
 
     return (
         <div className="Kep">
-            <h3>{props.kepObj.cim}</h3>
+            <div className="Kep-cim">
+                <h3>{props.kepObj.cim}</h3>
+            </div>
             <img src={props.kepObj.utvonal} alt={props.kepObj.cim} onClick={kepreKattintas} />
         </div>
     );
